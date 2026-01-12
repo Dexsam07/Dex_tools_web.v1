@@ -1,1 +1,143 @@
-searchInput.addEventListener('input', () => { let value = searchInput.value.toLowerCase(); grid.innerHTML = ''; tools.filter(tool => tool.name.toLowerCase().includes(value)) .forEach(t => { let card = document.createElement('div'); card.className = 'tool-card'; card.innerHTML = <i class=fas \( {t.icon}></i><h3> \){t.name}</h3><p>${t.desc}</p>; grid.appendChild(card); }); })
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3.8rem;
+  letter-spacing: 3px;
+}
+
+h1 span {
+  color: #00ffff;
+  text-shadow: 0 0 20px #00ffff;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #00ffff;
+  opacity: 0.8;
+  margin-top: 8px;
+}
+
+#searchInput {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  padding: 18px 25px;
+  font-size: 1.3rem;
+  background: rgba(0, 255, 255, 0.08);
+  border: 1px solid #00ffff44;
+  border-radius: 12px;
+  color: #00ffff;
+  outline: none;
+  transition: all 0.3s;
+}
+
+#searchInput:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 15px #00ffff44;
+  background: rgba(0, 255, 255, 0.12);
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+  margin-bottom: 80px; /* फुटर के लिए स्पेस */
+}
+
+.tool-card {
+  background: rgba(0, 255, 255, 0.07);
+  border: 1px solid #00ffff22;
+  border-radius: 16px;
+  padding: 25px 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 255, 255, 0.25);
+  background: rgba(0, 255, 255, 0.15);
+  border-color: #00ffff88;
+}
+
+.tool-card i {
+  font-size: 2.8rem;
+  color: #00ffff;
+  margin-bottom: 15px;
+}
+
+.tool-card h3 {
+  font-size: 1.3rem;
+  color: #00ffff;
+  margin-bottom: 8px;
+}
+
+.tool-card p {
+  font-size: 0.95rem;
+  color: #cccccc;
+  line-height: 1.4;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #00ffff22;
+  position: relative;
+  margin-top: 60px;
+}
+
+.group-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 15px 0;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}
+
+.group-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.6);
+  background: #20b058;
+}
+
+.group-btn i {
+  margin-right: 10px;
+}
+
+.watermark {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #888;
+}
