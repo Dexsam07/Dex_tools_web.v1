@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "message": "Content is not HTML, skipping asset/metadata extraction.",
+  "headers": {
+    "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "cf-ray": "9bcb9aa8d47d3169-MRS",
+    "connection": "keep-alive",
+    "content-length": "16",
+    "content-type": "text/plain; charset=UTF-8",
+    "date": "Mon, 12 Jan 2026 09:25:00 GMT",
+    "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "referrer-policy": "same-origin",
+    "server": "cloudflare",
+    "x-frame-options": "SAMEORIGIN"
+  },
+  "sourceCode": "error code: 1042",
+  "assets": {},
+  "metadata": {},
+  "requestedUrl": "https://n.f-a-k.workers.dev/mixkit-sci-fi-click.wav",
+  "correctedUrl": "https://n.f-a-k.workers.dev/mixkit-sci-fi-click.wav",
+  "finalUrl": "https://n.f-a-k.workers.dev/mixkit-sci-fi-click.wav",
+  "status": 404,
+  "statusText": "Not Found"
+}
