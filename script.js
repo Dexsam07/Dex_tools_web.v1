@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { name: "QR Code Generator", desc: "Create QR codes", icon: "fa-qrcode", link: "https://www.qr-code-generator.com" },
     { name: "Remove Background", desc: "Remove image BG", icon: "fa-cut", link: "https://www.remove.bg" },
     { name: "Reels Downloader", desc: "Save Instagram reels", icon: "fa-video", link: "https://indown.io/reels" },
-    { name: "YouTube Downloader", desc: "Download videos/audio", icon: "fa-youtube", link: "https://yt1s.com" },
+    { name: "YouTube Downloader", desc: "Download videos/audio", icon: "fa-youtube", link: "https://v6.www-y2mate.com/" },
     { name: "Password Generator", desc: "Strong passwords", icon: "fa-key", link: "https://passwordsgenerator.net" },
     { name: "Color Picker", desc: "Pick colors", icon: "fa-palette", link: "https://htmlcolorcodes.com/color-picker" },
     { name: "Image Compressor", desc: "Compress images", icon: "fa-compress", link: "https://compressjpeg.com" },
