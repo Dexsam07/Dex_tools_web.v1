@@ -3,44 +3,261 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dex Tools Kit v10.00 | Stable Luxury Cyber Hub</title>
-  <meta name="description" content="Stable v10.00 • 150+ Ultra Tools • Developed by DEX SHAYAM CHAUDHARI">
+  <title>DEX-SHYAM-HA4KR TOOLS • ✋🏻  😎  🤚🏻                   
+  \ 🥹/             🔫 __  🙂
+       |                            | \
+     / \                          / \
+_ /    \ _                   _ /    \ _
+                                        
+REACTION Do 😡 Goli mar dunga 😕 Hacker Toolkit V10 • Stable Edition</title>
+  <meta name="description" content="DEX v10.00 • 50+ Ultra Tools • Developed by DEX SHYAM CHAUDHARI (Siliguri)"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=VT323&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css"/> <!-- তোমার style.css যদি থাকে -->
+
+  <style>
+    /* Basic Neon + Dark Theme */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background:#0a0015;
+      color:#00ff9d;
+      font-family:'Orbitron', sans-serif;
+      overflow-x:hidden;
+      min-height:100vh;
+      position:relative;
+    }
+    
+    /* Wave BG from your code */
+    .wave-bg {
+      position:fixed;
+      top:0; left:0;
+      width:100%; height:100%;
+      background:linear-gradient(135deg, #0a0015, #1a0030);
+      z-index:0;
+      opacity:0.8;
+    }
+    .wave-bg .wave {
+      position:absolute;
+      bottom:0;
+      left:0;
+      width:100%;
+      height:100px;
+      background: url('https://example.com/wave.png'); /* চাইলে real wave image যোগ করো */
+      background-size:cover;
+      animation: wave 10s linear infinite;
+    }
+    @keyframes wave { 0% { transform:translateX(0); } 100% { transform:translateX(-100%); } }
+    
+    /* Matrix Rain */
+    canvas#matrix {
+      position:fixed;
+      top:0; left:0;
+      width:100%; height:100%;
+      z-index:1;
+      pointer-events:none;
+      opacity:0.5;
+    }
+    
+    .container, .content {
+      position:relative;
+      z-index:10;
+      padding:20px;
+      max-width:1400px;
+      margin:0 auto;
+    }
+    
+    .logo-container { text-align:center; margin:20px 0; }
+    .logo { max-width:200px; border-radius:50%; box-shadow:0 0 30px #00ff9d; }
+    
+    header { text-align:center; padding:20px 0; }
+    h1 { font-size:4.5rem; background:linear-gradient(90deg,#00ff9d,#ff00ff,#00ffff); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; text-shadow:0 0 30px rgba(0,255,157,0.8); animation:glow 4s infinite alternate; }
+    .subtitle { font-size:1.8rem; color:#00ffff; margin:10px 0; font-family:'VT323',monospace; }
+    
+    .search-container { text-align:center; margin:30px 0; }
+    #searchInput { width:85%; max-width:800px; padding:18px 25px; font-size:1.8rem; background:rgba(0,0,0,0.7); border:2px solid #ff00ff; color:#00ffff; font-family:'VT323',monospace; border-radius:50px; box-shadow:0 0 20px rgba(255,0,255,0.5); }
+    
+    .categories { display:flex; justify-content:center; gap:15px; flex-wrap:wrap; margin:30px 0; }
+    .cat-btn { padding:12px 30px; background:transparent; border:2px solid #00ffff; color:#00ffff; font-size:1.4rem; border-radius:50px; cursor:pointer; transition:0.3s; }
+    .cat-btn.active, .cat-btn:hover { background:#00ffff; color:#000; box-shadow:0 0 20px #00ffff88; }
+    
+    .tool-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:25px; margin:50px 0; }
+    .tool-card { background:rgba(10,0,30,0.65); border:1px solid #00ff9d44; border-radius:16px; padding:25px 15px; text-align:center; transition:0.4s; backdrop-filter:blur(8px); cursor:pointer; }
+    .tool-card:hover { transform:translateY(-12px) scale(1.05); border-color:#00ff9d; box-shadow:0 0 35px rgba(0,255,157,0.7); }
+    .tool-icon { font-size:4rem; margin-bottom:15px; color:#ff00ff; text-shadow:0 0 15px #ff00ffaa; }
+    .tool-name { font-size:1.3rem; color:#00ffff; font-family:'VT323',monospace; }
+    
+    footer { text-align:center; padding:80px 0 40px; color:#777; font-size:1.2rem; }
+    .join-btn { display:inline-block; padding:14px 40px; background:rgba(0,255,157,0.2); border:2px solid #00ff9d; color:#00ff9d; text-decoration:none; font-size:1.6rem; border-radius:50px; margin:20px 0; transition:0.4s; }
+    .join-btn:hover { background:#00ff9d; color:#000; box-shadow:0 0 30px #00ff9d; }
+    
+    .status { position:fixed; bottom:25px; right:30px; background:rgba(0,255,0,0.25); border:2px solid #00ff00; color:#00ff00; padding:12px 25px; border-radius:50px; font-size:1.5rem; box-shadow:0 0 20px #00ff0088; font-family:'VT323',monospace; }
+    
+    @keyframes glow { from {text-shadow:0 0 15px #00ff9d,0 0 30px #ff00ff;} to {text-shadow:0 0 30px #00ff9d,0 0 50px #ff00ff;} }
+  </style>
 </head>
 <body>
-  <div class="wave-bg"><div class="wave"></div></div>
 
-  <div class="container">
-    <div class="logo-container">
-      <img src="https://i.ibb.co/x8gBn75k/IMG-20251226-083017.jpg" alt="Dex New Logo" class="logo" />
-    </div>
+<div class="wave-bg"><div class="wave"></div></div>
+<canvas id="matrix"></canvas>
 
-    <header>
-      <h1><span>DEX</span> TOOLS KIT v10.00</h1>
-      <p class="subtitle">Stable Luxury Cyber Hub • Developed by DEX SHAYAM CHAUDHARI</p>
-    </header>
-
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search Tools..."/>
-    </div>
-
-    <div class="tool-grid" id="toolsGrid"></div>
-
-    <footer>
-      <a href="https://chat.whatsapp.com/IOEbmfzOD6d9TCjdX5Fi3B" target="_blank" class="join-btn">
-        <i class="fab fa-whatsapp"></i> Join Dex Group
-      </a>
-      <div class="copyright">© 2026 DEX SHAYAM CHAUDHARI • Stable & Luxury Edition</div>
-    </footer>
+<div class="container">
+  <div class="logo-container">
+    <img src="https://i.ibb.co/x8gBn75/IMG-20251226-083017.jpg" alt="Dex Logo" class="logo" />
   </div>
 
-  <!-- Sci-fi click sound -->
-  <audio id="clickSound" src="mixkit-sci-fi-click.wav" preload="auto"></audio>
+  <header>
+    <h1>DEX-SHYAM-HA4KR TOOLS</h1>
+    <p class="subtitle">Stable Luxury Cyber Hub V10 • Developed by DEX SHYAM CHAUDHARI (Siliguri)</p>
+  </header>
 
-  <!-- Auto Background Music - Optimized for direct play on open -->
-  <audio id="bgMusic" autoplay loop preload="auto" volume="0.6"></audio>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search Tools... (Hacker | WhatsApp | AI | Downloader)"/>
+  </div>
 
-  <script src="script.js"></script>
+  <div class="categories">
+    <button class="cat-btn active" data-cat="all">All</button>
+    <button class="cat-btn" data-cat="social">Social</button>
+    <button class="cat-btn" data-cat="dev">Dev Tools</button>
+    <button class="cat-btn" data-cat="coming">Coming Soon</button>
+  </div>
+
+  <div class="tool-grid" id="toolsGrid">
+    <!-- 50+ Tools with Font Awesome Icons + Placeholder Links -->
+    <div class="tool-card" data-cat="all"><i class="fas fa-book-quran tool-icon"></i><div class="tool-name">Quran Recitation</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-envelope tool-icon"></i><div class="tool-name">Temp Mail Pro</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-sim-card tool-icon"></i><div class="tool-name">Pak Sim Data</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-edit tool-icon"></i><div class="tool-name">Code Editor</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-laptop-code tool-icon"></i><div class="tool-name">Full Site Hacker</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fab fa-whatsapp tool-icon"></i><div class="tool-name">WhatsApp Unban</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-robot tool-icon"></i><div class="tool-name">WhatsApp BOT</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-tv tool-icon"></i><div class="tool-name">Live Channels</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-download tool-icon"></i><div class="tool-name">Reels Downloader</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fab fa-facebook tool-icon"></i><div class="tool-name">FB Downloader</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-video tool-icon"></i><div class="tool-name">CapCut Pro</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-link tool-icon"></i><div class="tool-name">Link Shortener</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-image tool-icon"></i><div class="tool-name">Thumbnail Saver</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-font tool-icon"></i><div class="tool-name">Stylish Font Maker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-exchange-alt tool-icon"></i><div class="tool-name">Dollar To PKR</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-search tool-icon"></i><div class="tool-name">Search Image</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-tools tool-icon"></i><div class="tool-name">Modding Tools</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-globe tool-icon"></i><div class="tool-name">Website Creator</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-user-secret tool-icon"></i><div class="tool-name">Social Stalker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-qrcode tool-icon"></i><div class="tool-name">QR Code Generator</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-file-alt tool-icon"></i><div class="tool-name">Text To File</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-apple-alt tool-icon"></i><div class="tool-name">Mobile Info</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-code tool-icon"></i><div class="tool-name">HTML Editor</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-lock tool-icon"></i><div class="tool-name">HTML Encryptor</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-magic tool-icon"></i><div class="tool-name">Remini Pro</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-shield-alt tool-icon"></i><div class="tool-name">Link Locker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-trash-alt tool-icon"></i><div class="tool-name">Remove BG</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-robot tool-icon"></i><div class="tool-name">AI Logo Maker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-calculator tool-icon"></i><div class="tool-name">Age Calculator</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-gamepad tool-icon"></i><div class="tool-name">Game Mods</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fab fa-tiktok tool-icon"></i><div class="tool-name">TikTok Downloader</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-cut tool-icon"></i><div class="tool-name">CapCut Editor</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-palette tool-icon"></i><div class="tool-name">Color Picker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-music tool-icon"></i><div class="tool-name">Music Downloader</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-photo-video tool-icon"></i><div class="tool-name">Video Converter</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fab fa-instagram tool-icon"></i><div class="tool-name">Insta Stalker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-cloud-download-alt tool-icon"></i><div class="tool-name">Cloud Storage</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-bug tool-icon"></i><div class="tool-name">Bug Finder</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-chart-line tool-icon"></i><div class="tool-name">Crypto Tracker</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-wallet tool-icon"></i><div class="tool-name">Wallet Generator</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-users tool-icon"></i><div class="tool-name">Group Manager</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-map-marker-alt tool-icon"></i><div class="tool-name">Location Tracker</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-terminal tool-icon"></i><div class="tool-name">Command Runner</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-eye tool-icon"></i><div class="tool-name">IP Lookup</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-key tool-icon"></i><div class="tool-name">Password Gen</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-comment-dots tool-icon"></i><div class="tool-name">Chat Analyzer</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-bell tool-icon"></i><div class="tool-name">Notification Hub</div></div>
+    <div class="tool-card" data-cat="all dev"><i class="fas fa-file-code tool-icon"></i><div class="tool-name">JSON Formatter</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-sync-alt tool-icon"></i><div class="tool-name">URL Redirector</div></div>
+    <div class="tool-card" data-cat="all"><i class="fas fa-volume-up tool-icon"></i><div class="tool-name">Voice Changer</div></div>
+    <div class="tool-card" data-cat="all social"><i class="fas fa-share-alt tool-icon"></i><div class="tool-name">Share Booster</div></div>
+    <div class="tool-card" data-cat="coming"><i class="fas fa-hourglass-half tool-icon"></i><div class="tool-name">AI Chatbot</div></div>
+    <div class="tool-card" data-cat="coming"><i class="fas fa-brain tool-icon"></i><div class="tool-name">ML Trainer</div></div>
+    <div class="tool-card" data-cat="coming"><i class="fas fa-vr-cardboard tool-icon"></i><div class="tool-name">VR Simulator</div></div>
+    <div class="tool-card" data-cat="coming"><i class="fas fa-rocket tool-icon"></i><div class="tool-name">Space Explorer</div></div>
+  </div>
+
+  <footer>
+    <a href="https://chat.whatsapp.com/IOEbmfzOD6d9TCjdX5Fi3B" target="_blank" class="join-btn">
+      <i class="fab fa-whatsapp"></i> Join Dex Group
+    </a>
+    <div class="copyright">© 2026 DEX SHYAM CHAUDHARI • Stable & Luxury Edition V10</div>
+  </footer>
+</div>
+
+<div class="status">● 50K Online • System Active</div>
+
+<!-- Audio -->
+<audio id="clickSound" src="mixkit-sci-fi-click.wav" preload="auto"></audio>
+<audio id="bgMusic" autoplay loop preload="auto" volume="0.6">
+  <source src="https://example.com/bg-music.mp3" type="audio/mpeg"> <!-- Real music link যোগ করো, কিন্তু browser autoplay allow করতে হবে -->
+</audio>
+
+<script>
+// Matrix Rain
+const canvas = document.getElementById('matrix');
+const ctx = canvas.getContext('2d');
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+const chars = '01アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*';
+const fontSize = 16;
+const columns = canvas.width / fontSize;
+const drops = Array(Math.floor(columns)).fill(1);
+function drawMatrix() {
+  ctx.fillStyle = 'rgba(10,0,21,0.06)';
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle = '#00ff9d';
+  ctx.font = fontSize+'px VT323';
+  for(let i=0; i<drops.length; i++){
+    const text = chars.charAt(Math.floor(Math.random()*chars.length));
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    if(drops[i]*fontSize > canvas.height && Math.random()>0.975) drops[i]=0;
+    drops[i]++;
+  }
+}
+setInterval(drawMatrix, 40);
+window.addEventListener('resize',()=>{canvas.height=window.innerHeight;canvas.width=window.innerWidth;});
+
+// Tool Click: Sound + Open Link (placeholder)
+document.querySelectorAll('.tool-card').forEach(card => {
+  card.addEventListener('click', () => {
+    document.getElementById('clickSound').currentTime = 0;
+    document.getElementById('clickSound').play();
+    const toolName = card.querySelector('.tool-name').textContent.toLowerCase().replace(/\s+/g, '-');
+    window.open(`https://example.com/dex-tools/${toolName}`, '_blank'); // Future: real link যোগ করো
+  });
+});
+
+// Search Filter
+document.getElementById('searchInput').addEventListener('input', e => {
+  const term = e.target.value.toLowerCase();
+  document.querySelectorAll('.tool-card').forEach(card => {
+    card.style.display = card.querySelector('.tool-name').textContent.toLowerCase().includes(term) ? 'block' : 'none';
+  });
+});
+
+// Category Filter
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const cat = btn.dataset.cat;
+    document.querySelectorAll('.tool-card').forEach(card => {
+      card.style.display = (cat === 'all' || card.dataset.cat.includes(cat)) ? 'block' : 'none';
+    });
+  });
+});
+
+</script>
+
+<script src="script.js"></script> <!-- Extra JS যদি থাকে -->
+
 </body>
 </html>
